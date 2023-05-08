@@ -13,7 +13,7 @@ Language: TypeScript
 tsc day01/day01_part1.ts
 ```
 
-This creates the JavaScript file day01_part.js which you can run using node
+This creates the JavaScript file day01_part1.js which you can run using node
 
 # 2. Running the JavaScript code using node
 
