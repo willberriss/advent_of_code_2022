@@ -15,10 +15,10 @@ tsc day01/day01_part1.ts
 
 This creates the JavaScript file day01_part1.js which you can run using node
 
-# 2. Running the JavaScript code using node
+# 2. Running the JavaScript code using node: Example shown for day01
 
 ```bash
-node day01/day01_part1.js
+node day01/day01_part1.js day01/input.txt
 ```
 
 # 3. Running the text formatter prettier
