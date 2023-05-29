@@ -54,8 +54,7 @@ export const doIt = async (input_file: string) => {
     console.log("Calories: ", Calories);
 }
 
-// Only call when running using node; we don't want jest to call this, but
-// it does for some reason. We need to check for main like Python __main__
+// Only call when running node.js; we don't want jest to call this.
 if (typeof require !== 'undefined' && require.main === module) {
     const args = process.argv;
     console.log(args);
