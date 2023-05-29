@@ -22,6 +22,6 @@ ninja
 
 ```bash
 cd build
-./day01_part
+./day01_part1 ../input.txt
 ```
 
