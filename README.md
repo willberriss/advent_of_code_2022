@@ -39,7 +39,7 @@ npx prettier --write .
 npx eslint --ext .ts .
 ```
 
-or to run the script alias I added to package.json
+or to run the script alias "lint" that I added to package.json
 
 ```bash
 npm run lint
