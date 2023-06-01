@@ -1,4 +1,5 @@
 import fs = require("fs");
+//import * as fs from "fs";
 import * as readline from "node:readline";
 
 export interface ElfData {

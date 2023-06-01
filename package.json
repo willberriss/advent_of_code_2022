@@ -1,6 +1,8 @@
 {
     "scripts": {
-        "lint": "eslint --ext .ts ."
+        "lint": "eslint --ext .ts .",
+        "build": "tsc -p tsconfig.json",
+        "buildplain": "tsc"
     },
     "devDependencies": {
         "@types/jest": "^29.5.1",

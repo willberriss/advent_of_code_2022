@@ -58,3 +58,17 @@ To run the tests in all the subdirectories
 ```bash
 npx jest
 ```
+
+# 6. Running JavaScript code in a browser
+
+Compile the ts code to js code:
+
+```bash
+tsc day01/day01_part1.ts
+```
+
+In a web browser, open the file day01/day01_part1.html
+Click on the button Choose file and select the file input.txt
+The results for Elf Id and Elf Calories will appear automatically.
+
+
