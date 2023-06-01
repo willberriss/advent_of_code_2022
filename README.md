@@ -64,11 +64,13 @@ npx jest
 Compile the ts code to js code:
 
 ```bash
-tsc day01/day01_part1.ts
+tsc day01/web/day01_part1.ts
 ```
 
-In a web browser, open the file day01/day01_part1.html
-Click on the button Choose file and select the file input.txt
+In a web browser, open the file **day01/web/day01_part1.html**  
+
+Click on the button Choose file and select the file input.txt  
+
 The results for Elf Id and Elf Calories will appear automatically.
 
 
