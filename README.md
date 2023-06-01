@@ -69,7 +69,18 @@ tsc day01/web/day01_part1.ts
 
 In a web browser, open the file **day01/web/day01_part1.html**  
 
-Click on the button Choose file and select the file input.txt  
+For instance, to open an html file in github directly, use the prefix:
+
+```bash
+https://htmlpreview.github.io/?
+```  
+
+e.g.
+```bash
+https://htmlpreview.github.io/?https://github.com/willberriss/advent_of_code_2022/blob/main/day01/web/day01a.html
+```  
+
+Click on the button **Choose file** and select the file **input.txt**  
 
 The results for Elf Id and Elf Calories will appear automatically.
 
