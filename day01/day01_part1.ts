@@ -1,5 +1,5 @@
-import fs = require("fs");
-//import * as fs from "fs";
+//import fs = require("fs");
+import * as fs from "fs";
 import * as readline from "node:readline";
 
 export interface ElfData {
@@ -49,13 +49,12 @@ export const processFileLineByLine = async (
 };
 
 export const doIt = async (input_file: string) => {
-    //const {Elf, Calories} = await processFileLineByLine(`${input_file}`);
     const elfData: ElfData = await processFileLineByLine(`${input_file}`);
     console.log("Elf: ", elfData.Elf);
     console.log("Calories: ", elfData.Calories);
 };
 
-// Only call when running node.js; we don't want jest to call this.
+// Only call doIt() when running node.js; we don't want jest to call this.
 if (typeof require !== "undefined" && require.main === module) {
     const args = process.argv;
     console.log(args);

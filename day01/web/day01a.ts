@@ -1,12 +1,8 @@
-//import fs = require("fs");
-// import * as fs from "fs";
-//import * as readline from "node:readline";
-
+/*
 interface ElfData {
     Elf: number;
     Calories: number;
 }
-
 const check = (input: string): number => {
     if ("" === input) {
         return 0;
@@ -48,12 +44,13 @@ const processText = async (input_data: string) => {
     //const myText1 = document.createTextNode( elfId );
     //document.body.appendChild( myText1 );
     const elfCalories = elfData.Calories.toString();
-    let myh2 = document.querySelector("h2");
+    const myh2 = document.querySelector("h2");
     myh2.innerText = "Elf Id: " + elfId;
     //myh2.appendChild(elfId);
-    let myh3 = document.querySelector("h3");
+    const myh3 = document.querySelector("h3");
     myh3.innerText = "Elf Calories: " +elfCalories;
 };
+*/
 
 const thename: HTMLElement = document.querySelector(".thename");
 const btn = document.querySelector("button");
