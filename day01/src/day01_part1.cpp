@@ -102,7 +102,7 @@ int main(int argc, char * argv[])
 {
     if (argc < 2)
     {
-        std::cout << "Please specify filename on command line." << std::endl;
+        std::cout << "Please specify input data filename on command line, e.g. input-test.txt." << std::endl;
         return 1;
     }
     const fs::path filename{argv[1]};
